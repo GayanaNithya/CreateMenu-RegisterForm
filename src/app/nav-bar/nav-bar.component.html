@@ -1,0 +1,27 @@
+<mat-toolbar color="primary" class="mat-elevation-z10">
+    <a mat-button><span style="font-size: 20px;"><mat-icon style="padding-top: 10px">book</mat-icon> Book Cart</span></a>
+    <div class="spacer"></div>
+    <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search books or authors" name="search"> 
+        </form>
+      </div>
+      <div class="spacer"></div>
+    <a mat-button><mat-icon>favorite</mat-icon></a>
+    <a mat-button><mat-icon>shopping_cart</mat-icon></a>
+    <!-- <a mat-button routerLink="login">Login</a> -->
+    <div class="btn-group" dropdown>
+      <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+              aria-controls="dropdown-basic">
+        User 
+      </button>
+      <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+          role="menu" aria-labelledby="button-basic">
+        <li role="menuitem"><a class="dropdown-item" href="#">My Orders</a></li>
+        <li role="menuitem"><a class="dropdown-item" href="#">Logout</a></li>
+      </ul>
+    </div>
+    
+  </mat-toolbar>
+<!-- <button><a routerLink="/register" class="btn btn-link">Register</a></button> -->
+

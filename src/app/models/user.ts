@@ -1,0 +1,9 @@
+export class User {
+    userId!: 0;
+    firstName!: "string";
+    lastName!: "string";
+    username!: "string";
+    password!: "string";
+    gender!: "string";
+    userTypeId!: 0;
+  }

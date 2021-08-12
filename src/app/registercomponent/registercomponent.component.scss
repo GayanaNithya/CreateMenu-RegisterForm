@@ -1,0 +1,91 @@
+p{
+    font-family: Late;
+}
+span{
+    color: blue;
+}
+.example-width{
+    width: 100%;
+}
+img{
+    width:100px;
+}
+.example-card{
+    max-width: 100px;
+    margin: 4px;
+}
+.example-card:hover{
+    box-shadow: rgba(209, 208, 208, 0.808) 0px 5px 15px;
+}
+.register{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 585px;
+    height: 450px;
+    margin:15px;
+}
+.boxmodel{
+    width: 650px;
+    height: 510px;
+    background-color: rgb(250, 245, 245);
+    margin: 100px 350px;
+    margin-top: 0px;
+    border:1px solid #d9dcdf;
+}
+.i{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.button{
+    margin-right: 300px;
+}
+.icon{
+    float: right;
+}
+.box{
+    width: 650px;
+    height:50px;
+    background-color: #ff4081;
+    margin: 0px 350px;
+    margin-top: 20px;
+    border: 1px solid #ff4081;
+}
+.textop {
+    color:white;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dis{
+    color: white;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.second{
+    font-size: 20px;
+    margin-left: 150px;
+    color: white;
+    padding-right: 10px;
+    padding-top: 0px;
+    display: inline-block;
+}
+.small{
+    margin-top: 0px;
+    color: red;
+    font-size: 10px;
+}
+.example-full-width{
+    width: 700px;
+    background-color: white;
+}
+mat-card-subtitle{
+    font-size: 30px;
+}
+mat-card-title{
+    color:green;
+    font-size: 40px;
+}
+#regbutton{
+    margin-left: 80%;
+}
