@@ -1,11 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-//import { first } from 'rxjs/operators';
 
 import {  UserService } from '../service';
 import { MustMatch } from '../must-match.validator';
-//import { MustMatch } from '../must-match.validator';
 
 @Component({
   selector: 'app-registercomponent',
@@ -75,6 +73,16 @@ export class RegistercomponentComponent implements OnInit {
       inp.type="text"
     }else{
       this.val="visibility_off"
+      inp.type="password"
+    }
+  }
+  val1 = "visibility_off"
+  icon1(inp:any){
+    if(this.val1=="visibility_off"){
+      this.val1="visibility"
+      inp.type="text"
+    }else{
+      this.val1="visibility_off"
       inp.type="password"
     }
   }
