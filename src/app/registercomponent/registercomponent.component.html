@@ -56,7 +56,7 @@
                 <mat-form-field class="example-width">
                     <mat-label>Confirm Password</mat-label>
                     <input type="password" #inp1 required formControlName="confirmPassword" name="confirmpassword" matInput>
-                    <mat-icon (click)="icon(inp1)"aria-hidden="false" class="icon" aria-label="Example home icon">{{val}}</mat-icon>
+                    <mat-icon (click)="icon1(inp1)"aria-hidden="false" class="icon" aria-label="Example home icon">{{val1}}</mat-icon>
                     <mat-error class=small *ngIf="fifth && fifth?.invalid && fifth?.touched">
                         <div *ngIf="fifth.errors?.required">
                             Password is required
