@@ -22,13 +22,17 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { DummyLoginComponent } from './dummy-login/dummy-login.component';
 import { RegistercomponentComponent } from './registercomponent/registercomponent.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { WishlistComponent } from './wishlist/wishlist.component';
+import { CartlistComponent } from './cartlist/cartlist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     DummyLoginComponent,
-    RegistercomponentComponent
+    RegistercomponentComponent,
+    WishlistComponent,
+    CartlistComponent
   ],
   imports: [
     BrowserModule,
